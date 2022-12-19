@@ -3,6 +3,7 @@ package com.quiz;
 public class Result extends Student_data {
 
 	public void result() {
+		// checking result
 
 		System.out.println("--------RESULT---------");
 		System.out.println("Total Questions: " + "+10");
@@ -17,7 +18,5 @@ public class Result extends Student_data {
 		} else {
 			System.out.println("fail");
 		}
-
 	}
-
 }
